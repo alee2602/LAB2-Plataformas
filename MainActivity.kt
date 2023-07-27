@@ -24,7 +24,7 @@ class MainActivity {
 
         val palindrome= "raDar" // Palabra que se escribe y lee de la misma manera al derecho y al revés
         println("     P A L I N D R O M E   C H E C K              ")
-        println("The word ${palindrome.lowercase()} is a palindrome: ${isPalindrome(palindrome)}")
+        println("The word ${palindrome.lowercase()} is a palindrome: ${isPalindrome(palindrome)}") //Imprime la palabra y ya sea true si es un palindrome o false si no es un palindrome.
         println("----------------------------------------------")
 
         val names= listOf("Alejandra", "José", "Alicia") //Lista de nombres
@@ -83,4 +83,3 @@ fun main() {
     val mainActivity = MainActivity()
     mainActivity.main()
 }
-
